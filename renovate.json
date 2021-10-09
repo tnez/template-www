@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "automergeStrategy": "squash",
+  "branchPrefix": "deps/",
+  "labels": ["auto"],
+  "semanticCommits": true,
+  "stabilityDays": 3
+}
