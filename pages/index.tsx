@@ -12,7 +12,7 @@ export default function HomePage(props: HomePageProps) {
 export const getServerSideProps: GetServerSideProps<HomePageProps> = async (
   context,
 ) => {
-  const name = context.query['name']?.toString() ?? 'Larry'
+  const name = context.query.name?.toString() ?? 'Larry'
   return {
     props: {
       greeting: `${sayHello(name)}!`,
