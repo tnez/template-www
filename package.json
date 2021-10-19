@@ -3,14 +3,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "cypress:open": "overmind start -f cypress.procfile",
     "lint": "npm run lint:xo && npm run lint:next",
     "lint:next": "next lint",
     "lint:xo": "xo",
     "test": "jest"
   },
   "devDependencies": {
+    "@testing-library/cypress": "8.0.1",
     "@types/jest": "27.0.2",
     "@types/react": "17.0.30",
+    "cypress": "8.6.0",
     "eslint-config-next": "11.1.2",
     "jest": "27.2.5",
     "prettier": "2.4.1",
