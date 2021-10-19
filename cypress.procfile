@@ -1,0 +1,2 @@
+offers: npm run dev -- -p 3000
+cypress: CYPRESS_BASE_URL="http://localhost:3000" npx cypress open
