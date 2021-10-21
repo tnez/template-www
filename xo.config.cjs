@@ -10,9 +10,10 @@ module.exports = {
   },
   overrides: [
     {
-      files: '**/*.test.ts',
+      files: '**/*.(spec|test).ts?(x)',
       rules: {
         '@typescript-eslint/no-unsafe-assignment': 0,
+        '@typescript-eslint/no-unsafe-call': 0,
       },
     },
     {
