@@ -5,6 +5,7 @@ module.exports = {
   plugins: ['jest'],
   rules: {
     'node/prefer-global/process': ['error', 'always'],
+    'jest/no-disabled-tests': ['error'],
     'jest/no-focused-tests': ['error'],
     '@typescript-eslint/naming-convention': 'off',
   },
