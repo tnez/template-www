@@ -6,7 +6,7 @@ describe('when called with argment', () => {
     result = sayHello('David')
   })
 
-  it.skip('should produce expected result', () => {
+  it('should produce expected result', () => {
     expect(result).toBe('Hello David')
   })
 })

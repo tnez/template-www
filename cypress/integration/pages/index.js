@@ -4,7 +4,7 @@ describe('/', () => {
       cy.visit('/')
     })
 
-    it.skip('should display expected greeting', () => {
+    it('should display expected greeting', () => {
       cy.findByText('Hello Larry!').should('be.visible')
     })
   })
