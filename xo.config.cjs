@@ -4,6 +4,7 @@ module.exports = {
   space: true,
   plugins: ['jest'],
   rules: {
+    'import/extensions': 'off',
     'node/prefer-global/process': ['error', 'always'],
     'jest/no-disabled-tests': ['error'],
     'jest/no-focused-tests': ['error'],
