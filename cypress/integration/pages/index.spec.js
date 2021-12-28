@@ -5,7 +5,7 @@ describe('/', () => {
     })
 
     it('should display expected greeting', () => {
-      cy.findByText('Hello Larry!').should('be.visible')
+      cy.contains('Hello Larry!').should('be.visible')
     })
   })
 
@@ -15,7 +15,7 @@ describe('/', () => {
     })
 
     it('should display expected greeting', () => {
-      cy.findByText('Hello Gary!').should('be.visible')
+      cy.contains('Hello Gary!').should('be.visible')
     })
   })
 })
