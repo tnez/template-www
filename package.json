@@ -1,7 +1,7 @@
 {
   "engines": {
     "node": "14",
-    "npm": "6"
+    "npm": "8"
   },
   "scripts": {
     "dev": "next dev",
