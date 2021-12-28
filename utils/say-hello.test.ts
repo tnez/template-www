@@ -1,4 +1,4 @@
-import { sayHello } from '..'
+import { sayHello } from './say-hello'
 
 describe('when called with argment', () => {
   let result: unknown
