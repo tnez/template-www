@@ -2,7 +2,8 @@ const parentConfig = require('../xo.config.cjs')
 
 module.exports = {
   ...parentConfig,
-  globals: ['cy'],
+  plugins: [...parentConfig.plugins, 'cypress'],
+  extends: ['plugin:cypress/recommended'],
   rules: {
     ...parentConfig.rules,
     '@typescript-eslint/triple-slash-reference': 0,
