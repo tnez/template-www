@@ -5,6 +5,10 @@
   "automerge": true,
   "automergeStrategy": "squash",
   "branchPrefix": "deps/",
+  "constraints": {
+    "node": "14",
+    "npm": "6"
+  },
   "labels": ["auto"],
   "semanticCommits": true,
   "stabilityDays": 3
