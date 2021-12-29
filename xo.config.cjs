@@ -14,6 +14,7 @@ module.exports = {
     {
       files: '**/*.(spec|test).ts?(x)',
       rules: {
+        'unicorn/prefer-node-protocol': 0,
         '@typescript-eslint/no-unsafe-assignment': 0,
         '@typescript-eslint/no-unsafe-call': 0,
       },
