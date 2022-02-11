@@ -37,7 +37,7 @@
     "@graphql-tools/stitch": "8.4.3",
     "@graphql-tools/utils": "8.6.1",
     "@graphql-tools/wrap": "8.3.3",
-    "apollo-server-express": "3.6.2",
+    "apollo-server-express": "3.6.3",
     "express": "4.17.2",
     "framer-motion": "6.2.4",
     "graphql": "16.3.0",
