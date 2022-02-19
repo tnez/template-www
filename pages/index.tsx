@@ -14,7 +14,7 @@ export default function HomePage(props: HomePageProps) {
       alignItems="center"
       justifyContent="center"
     >
-      <Text fontSize="4xl" fontWeight="bold" color="blue.400">
+      <Text fontSize="4xl" fontWeight="bold" color="primary">
         {props.greeting}
       </Text>
     </Box>
