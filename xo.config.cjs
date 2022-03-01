@@ -10,6 +10,7 @@ module.exports = {
     'jest/no-focused-tests': ['error'],
     '@typescript-eslint/naming-convention': 'off',
   },
+  ignores: ['graphql/types.ts'],
   overrides: [
     {
       files: '**/*.(spec|test).ts?(x)',
@@ -23,6 +24,13 @@ module.exports = {
       files: 'next-env.d.ts',
       rules: {
         '@typescript-eslint/triple-slash-reference': 0,
+      },
+    },
+    {
+      files: '*.config.js',
+      rules: {
+        'object-shorthand': 0,
+        'unicorn/prefer-module': 0,
       },
     },
   ],

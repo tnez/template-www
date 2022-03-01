@@ -1,0 +1,44 @@
+name: checks
+on: push
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking-Out Code
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - name: Installing Dependencies
+        run: npm install
+      - name: Linting Code
+        run: npm run check:lint
+
+  types:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking-Out Code
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - name: Installing Dependencies
+        run: npm install
+      - name: Checking Types
+        run: npm run check:types
+
+  units:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking-Out Code
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - name: Installing Dependencies
+        run: npm install
+      - name: Verifying Unit Tests
+        run: npm test

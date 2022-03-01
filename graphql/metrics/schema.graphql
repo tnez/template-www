@@ -1,0 +1,12 @@
+type Metric {
+  id: ID!
+  name: String!
+  value: Float!
+}
+
+type Query {
+  """
+  Fetch mocked metrics.
+  """
+  metrics: [Metric!]!
+}
