@@ -1,4 +1,6 @@
 import type * as DocumentType from 'data/metrics/types'
+import type { Resolver, Metric } from 'graphql/types'
 
-export const value = (parent: DocumentType.Metric): number =>
-  Math.random() * parent.maxValue
+export const value: Resolver<Metric['value'], DocumentType.Metric> = (
+  parent,
+): number => Math.random() * parent.maxValue

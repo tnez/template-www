@@ -10,6 +10,7 @@ module.exports = {
     'jest/no-focused-tests': ['error'],
     '@typescript-eslint/naming-convention': 'off',
   },
+  ignores: ['graphql/types.ts'],
   overrides: [
     {
       files: '**/*.(spec|test).ts?(x)',

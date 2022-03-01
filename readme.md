@@ -60,3 +60,8 @@ _Note: if you run into issues with `npm ci`, you can try `npm install`._
 
 - I typically use the end-to-end test runner while developing: `npm run cypress:open`
 - But, if you prefer, you can forego the **e2e** and run the development server on its own: `npm run dev`
+
+### Update Auto-Generated Types
+
+1. Start the development server: `npm run dev`
+1. Generate them types: `npm run generate:types`
