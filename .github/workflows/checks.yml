@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: Checking-Out Code
         uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
       - name: Installing Dependencies
         run: npm install
       - name: Linting Code
@@ -16,6 +20,10 @@ jobs:
     steps:
       - name: Checking-Out Code
         uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
       - name: Installing Dependencies
         run: npm install
       - name: Checking Types
@@ -25,7 +33,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checking-Out Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
       - name: Installing Dependencies
         run: npm install
       - name: Verifying Unit Tests
