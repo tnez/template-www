@@ -7,10 +7,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "check:lint": "npm run check:lint:xo && npm run check:lint:next",
+    "check:lint:next": "next lint",
+    "check:lint:xo": "xo",
+    "check:types": "npx tsc --noEmit",
     "cypress:open": "overmind start -f cypress.procfile",
-    "lint": "npm run lint:xo && npm run lint:next",
-    "lint:next": "next lint",
-    "lint:xo": "xo",
     "test": "jest"
   },
   "devDependencies": {

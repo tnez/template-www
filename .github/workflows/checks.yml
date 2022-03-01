@@ -9,14 +9,24 @@ jobs:
       - name: Installing Dependencies
         run: npm install
       - name: Linting Code
-        run: npm run lint
+        run: npm run check:lint
 
-  test:
+  types:
     runs-on: ubuntu-latest
     steps:
       - name: Checking-Out Code
         uses: actions/checkout@v3
       - name: Installing Dependencies
         run: npm install
-      - name: Running Unit Tests
+      - name: Checking Types
+        run: npm run check:types
+
+  units:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking-Out Code
+        uses: actions/checkout@v2
+      - name: Installing Dependencies
+        run: npm install
+      - name: Verifying Unit Tests
         run: npm test
