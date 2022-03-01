@@ -2,11 +2,13 @@ import { NextApiHandler } from 'next'
 import { ApolloServer } from 'apollo-server-express'
 import { Router, Request, Response } from 'express'
 
-import { buildSchema } from '../../graphql/schema'
+import { context } from 'graphql/context'
+import { buildSchema } from 'graphql/schema'
 
 const initialize = (async () => {
   const schema = await buildSchema()
   const server = new ApolloServer({
+    context,
     schema,
   })
 

@@ -25,5 +25,12 @@ module.exports = {
         '@typescript-eslint/triple-slash-reference': 0,
       },
     },
+    {
+      files: '*.config.js',
+      rules: {
+        'object-shorthand': 0,
+        'unicorn/prefer-module': 0,
+      },
+    },
   ],
 }

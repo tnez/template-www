@@ -15,7 +15,7 @@ const remoteExecutor: AsyncExecutor = async ({ document, variables }) => {
   /* eslint-enable @typescript-eslint/no-unsafe-return */
 }
 
-export const getCountriesSchema = async () => ({
+export const getSchema = async () => ({
   schema: await introspectSchema(remoteExecutor),
   executor: remoteExecutor,
 })
