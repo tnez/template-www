@@ -35,7 +35,7 @@
     "xo": "0.49.0"
   },
   "dependencies": {
-    "@apollo/client": "3.6.4",
+    "@apollo/client": "3.6.5",
     "@chakra-ui/react": "2.0.2",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
@@ -43,7 +43,7 @@
     "@graphql-tools/stitch": "8.6.12",
     "@graphql-tools/utils": "8.6.12",
     "@graphql-tools/wrap": "8.4.19",
-    "apollo-server-express": "3.7.0",
+    "apollo-server-express": "3.8.1",
     "express": "4.18.1",
     "framer-motion": "6.3.3",
     "graphql": "16.5.0",
