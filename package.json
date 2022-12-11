@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "16",
+    "node": "18",
     "npm": "9"
   },
   "scripts": {
@@ -21,7 +21,7 @@
     "@graphql-codegen/typescript-operations": "2.5.10",
     "@graphql-codegen/typescript-resolvers": "2.7.10",
     "@types/jest": "29.2.4",
-    "@types/node": "17.0.5",
+    "@types/node": "18.11.11",
     "@types/ramda": "0.28.20",
     "@types/react": "18.0.26",
     "cypress": "9.7.0",
