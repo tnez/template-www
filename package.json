@@ -21,7 +21,7 @@
     "@graphql-codegen/typescript-operations": "2.5.10",
     "@graphql-codegen/typescript-resolvers": "2.7.10",
     "@types/jest": "29.2.4",
-    "@types/node": "18.11.14",
+    "@types/node": "18.11.15",
     "@types/ramda": "0.28.20",
     "@types/react": "18.0.26",
     "cypress": "9.7.0",
