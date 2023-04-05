@@ -23,7 +23,7 @@
     "@types/jest": "29.4.0",
     "@types/node": "18.11.18",
     "@types/ramda": "0.28.22",
-    "@types/react": "18.0.27",
+    "@types/react": "18.0.32",
     "cypress": "9.7.0",
     "eslint-config-next": "13.1.6",
     "eslint-plugin-cypress": "2.12.1",
