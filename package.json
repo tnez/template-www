@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@apollo/client": "3.7.9",
-    "@chakra-ui/react": "2.6.1",
+    "@chakra-ui/react": "2.7.0",
     "@emotion/react": "11.11.0",
     "@emotion/styled": "11.11.0",
     "@graphql-tools/schema": "9.0.19",
