@@ -1,3 +1,7 @@
+🛑 **Note: I am no longer using this template. It has been archived.**
+
+---
+
 <p align="center">
   <a href="https://template-www.tnez.dev">
     <img src="logo.png" width="200">
